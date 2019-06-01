@@ -31,3 +31,15 @@ if(opc==1):
         ressul=num+num1+num2
         print("La operación que se esta realizando es una suma")
         print(ressul)
+# En esta parte, el codigo lo que hace es concatenar los números ya dados.
+elif(opc==2):
+    print("Número concatenados")
+    print(num + num1 + num2)
+    #Justamente aquí se me olvidó que llevaba el examen, y recuerdo que así iba, pero no estoy seguro.
+    # Admito que me dormí nomás vine, ya estaba cansado.
+    # Que tenga buen finde. Inge.
+    for i in range(num2):
+        # Imprime la multiplicación de los primeros dos números la cantidad de veces que haya sido indicada con el tercer número
+        print(num*num1, end="")
+    print()
+    print("Fin")
